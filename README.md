@@ -12,7 +12,7 @@ one-click booking automation via VBA.
 
 ---
 
-## 🎯 What This Solves
+## What This Solves
 
 A small business owner needed to quote prices to customers in real time
 based on a dozen interacting variables — species, coat type, breed, size,
@@ -21,7 +21,7 @@ or paying for custom software. This project delivers that entirely inside
 Excel, using formulas, data validation, and VBA — no external tools, no
 subscriptions, fully owned and editable by the business owner.
 
-## ✨ Key Features
+## Key Features
 
 - **Dynamic multiplier-based pricing** — base price × coat-type multiplier ×
   size multiplier, calculated live as the user selects options
@@ -48,7 +48,7 @@ subscriptions, fully owned and editable by the business owner.
 - **Built-in documentation** — a dedicated "How to Use" tab covering every
   feature, written for a non-technical end user
 
-## 📸 Screenshots
+## Screenshots
 
 ### Pricing Calculator
 ![Pricing Calculator](screenshots/pricing_calculator.png)
@@ -59,7 +59,7 @@ subscriptions, fully owned and editable by the business owner.
 ### Auto-Generated Receipt
 ![Receipt](screenshots/receipt.png)
 
-## 🗂️ File Structure
+## File Structure
 
 ```
 ├── Pawfect_Pricing_Calculator.xlsx    # Main workbook (5 tabs)
@@ -78,7 +78,7 @@ subscriptions, fully owned and editable by the business owner.
 | **Booking Log** | Running record of all bookings, with automatic revenue summary |
 | **Data** | All pricing rules, multipliers, and reference tables — the only sheet meant to be edited directly |
 
-## 🛠️ Built With
+## Built With
 
 - **Excel formulas**: nested `IF`, `INDEX`/`MATCH`, `SUMPRODUCT`, named
   ranges for cross-sheet dropdown lists
@@ -89,7 +89,7 @@ subscriptions, fully owned and editable by the business owner.
   PDF generation — including sheet protection handling, bounded-range
   row-search logic, and dynamic file-naming with character sanitization
 
-## 🧠 Notable Engineering Decisions
+## Notable Engineering Decisions
 
 - **Cross-sheet dropdown lists on a protected sheet can silently fail** in
   Excel unless sourced from a named range rather than a direct cell
@@ -102,7 +102,7 @@ subscriptions, fully owned and editable by the business owner.
   Excel does not exempt macros from sheet protection just because the code
   is running.
 
-## 📄 About the VBA Files
+## About the VBA Files
 
 The `.xlsx` format cannot store macros — Excel requires the macro-enabled
 `.xlsm` format for that, and macros must be added directly inside Excel's
