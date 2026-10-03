@@ -1,5 +1,9 @@
 # 🐾 Pawfect Mobile Grooming — Dynamic Pricing Calculator
 
+**In one line:** An Excel and VBA pricing and booking system that calculates quotes, logs bookings and generates PDF receipts for a mobile pet grooming business.
+
+**Skills demonstrated:** Excel (INDEX/MATCH, SUMPRODUCT, data validation, sheet protection), VBA automation, business-rule modeling.
+
 A fully automated Excel pricing and booking system built for a mobile pet
 grooming business, handling dogs and cats with different coat/hair types,
 sizes, add-on services, safety-critical grooming rules, discounts, and
